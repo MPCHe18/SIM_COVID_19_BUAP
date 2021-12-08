@@ -10,7 +10,23 @@ El propósito de este trabajo es proporcionar una herramienta basada en factores
 # ¿Cómo usarlo?
 Este simulador utiliza algunos factores que funcionan como configuración inicial para la representación de diversos escenarios bajo los cuales la enfermedad Covid-19 puede afectar a un grupo de personas (agentes).
 
-Al descargar el paquete de archivos, se debe ejecutar el archivo *app.py* para iniciar el simulador como un Host Local. El desarrollo de las reglas de interacción se encuentra definido en los archivos *AgentePlusPlus.py*, *controlador.py*, *utilidades.py* y *paths.py*. El primero de estos archivos en Python corresponde al código del agente, donde se definen y ciertos estados esenciales. El siguiente archivo corresponde al Main de las reglas de interacción que controla a todos los agentes instanciados. Los archivos *utilidades.py* y *paths.py* son códigos auxiliares para ejecución de eventos aleatorios y el movimiento del agente.
+Al descargar el paquete de archivos, los archivos importantes del simulador son:
+
+- *app.py*
+- *AgentePlusPlus.py*
+- *controlador.py*
+
+Se debe ejecutar el archivo *app.py* para iniciar el simulador como un Host Local. Al ejecutar este archivo desde un IDE para lenguaje Python, en la consola se mostrará una URL que deberá ser colocada en el navegador de preferencia. De esta manera se desplegará el simulador, pero el código debe manterese en ejecución, por lo que no se recomienda cerrar el IDE utilizado. Para detener la ejecución se debe presionar la combinación de teclas **Ctrl + c** dentro de la consola del IDE.
+
+Dentro del paquete de archivos se encuentran diversas carpetas que contienen elementos necesarios para la ejecución correcta de todo el código. Se recomienda **no eliminar o editar el nombre de ninguna de estas carpetas**. Las carpetas de importancia son:
+
+- Static
+- Templates
+
+En ellas se encuentran los archivos para ejecución en JavaScript para la página web y el archivo en HTML, respectivamente.
+
+
+El desarrollo de las reglas de interacción se encuentra definido en los archivos *AgentePlusPlus.py*, *controlador.py*, *utilidades.py* y *paths.py*. El primero de estos archivos en Python corresponde al código del agente, donde se definen y ciertos estados esenciales. El siguiente archivo corresponde al Main de las reglas de interacción que controla a todos los agentes instanciados. Los archivos *utilidades.py* y *paths.py* son códigos auxiliares para ejecución de eventos aleatorios y el movimiento del agente.
 
 Cuando se ejecuta el simulador, en el menú lateral izquierdo se deben configurar los parámetros iniciales como son el número total de agentes a desplegar en la interfaz, el número de agentes infectados iniciales, el número de agentes con comorbilidades, así como los que cuentan con una vacuna. Finalmente se definen los días de simulación. Cada uno de los parámetros son seleccionados con las barras de tipo slider.
 
