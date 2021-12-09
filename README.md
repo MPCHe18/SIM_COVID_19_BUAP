@@ -1,5 +1,13 @@
 # SIM_COVID_19_BUAP
-Simulador de epidemia por Covid-19
+## Simulator of Covid-19 epidemic.
+
+This repository contains the project developed during Artificial Intelligence course of Master in Electronics Engineering from Benemérita Universidad Autónoma de Puebla (Mexico).
+
+Here is presented a simulator of spread behavior due to Covid-19 pandemic, disease cataloged as a severe acute illness and determined as a pandemic by WHO on March 2020.
+
+The aim of this work is to provide a resource based on real factors like the main comorbidities detected in Mexico and the most supplied vaccine. This simulator was designed as an agent-based model, in which the interaction instructions are defined in Python language and controlled by a Main code.
+
+## Simulador de epidemia por Covid-19
 
 Este repositorio contiene el código desarrollado para el curso Inteligencia Artificial de la Maestría en Ingeniería Electrónica de la Benemérita Universidad Autónoma de Puebla.
 
