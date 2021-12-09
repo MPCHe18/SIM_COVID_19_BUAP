@@ -130,3 +130,10 @@ En la parte inferior del cuadro principal se presentan una serie de gráficos qu
 
 En la parte superior del cuadro principal se encuentra una barra azul que indica el avance del tiempo de simulación configurado. Para reiniciar el simulador es necesario recargar la página desde el navegador.
 
+# Más Información
+Si desea conocer con mayor detalle el desarrollo de este simulador puede contactarse con cualquiera de los desarrolladores mediante correo electrónico.
+
+- Salvador Eugenio Ayala Raggi - saraggi@gmail.com
+- Osberto Betanzos Ramírez - osberto.betanzos@alumno.buap.mx
+- Edgar Rodrigo González Campos - edgar.gonzalezca@alumno.buap.mx 
+
