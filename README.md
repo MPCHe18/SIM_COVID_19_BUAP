@@ -37,6 +37,8 @@ In the Console window (located in the right side of the window application) it w
 ## Example of Use
 In the browser you will see the main interface.
 
+<img src="https://github.com/MPCHe18/SIM_COVID_19_BUAP/blob/main/static/images/Interface.png" width="800" >
+
 The interface layout has in the left upper corner the menu deployer marked with three horizontal lines. In the center of the interface it appears the canvas in which the agents are represented graphically and their movements.
 
 If you scroll down the interface are presented the graphics of active cases, recovered agents, deaths and other auxiliary graphics.
