@@ -190,7 +190,10 @@ En la parte superior del cuadro principal se encuentra una barra azul que indica
 # Más Información
 Si desea conocer con mayor detalle el desarrollo de este simulador puede contactarse con cualquiera de los desarrolladores mediante correo electrónico.
 
-- Salvador Eugenio Ayala Raggi - saraggi@gmail.com
+Desarrolladores:
 - Osberto Betanzos Ramírez - osberto.betanzos@alumno.buap.mx
 - Edgar Rodrigo González Campos - edgar.gonzalezca@alumno.buap.mx 
+
+Dirección:
+- Salvador Eugenio Ayala Raggi - saraggi@gmail.com
 
