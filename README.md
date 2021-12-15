@@ -15,6 +15,61 @@ Se presenta un simulador del comportamiento de contagios debido a la pandemia po
 
 El propósito de este trabajo es proporcionar una herramienta basada en factores reales de las principales comorbilidades en México, así como vacunas aplicadas en la misma región. Este simulador se basa en un modelo multiagente en donde las reglas de interacción son definidas en lenguaje Python y controladas por una entidad principal (Main).
 
+# Example of Implementation
+To deploy the simulator interface is necessary to fulfil some requirements. Please if you are not familiarized with Python applications and computational environment read the following instructions. If you already have Python installed and a compatible IDE please goes to Example of Use section.
+
+## Python Download and Install
+Please use the following link to download Python: https://www.python.org/downloads/.
+Select the option of download and wait until the operation ends. After that process execute the application, an install wizard will be opened. Select the option “Install Now” and follow the wizard instructions until finish the installation.
+
+## Spyder IDE Download and Install
+First in you preferred web browser open the next link: https://sourceforge.net/projects/winpython/files/WinPython_3.7/3.7.12.0/. Select the download option and wait until the operation ends.
+
+After download execute the application “WinPython.exe”. It will ask a directory path to extract all the environment, select the path of your preference.
+In the extracted folder is possible to visualize other folders and several applications. Please execute with double click the application “Spyder.exe” and wait until the application start to operate.
+
+Please download the project in this repository in the green button called “Code” select “Download ZIP” and wait until the operation ends.
+After project download, in Spyder IDE select the option “File” in the upper menu and then select “Open” option. In File Browser search the project folder and select “app.py” file.
+
+Once the main file of the project is on the workplace, in the upper menu select “Run” and again “Run” option (or use F5 key if you use Windows).
+In the Console window (located in the right side of the window application) it will be shown the message “Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)”. Please copy the URL using right click of the mouse and paste it in your preferred browser. In this moment the simulator is already running.
+
+## Example of Use
+In the browser you will see the main interface.
+
+The interface layout has in the left upper corner the menu deployer marked with three horizontal lines. In the center of the interface it appears the canvas in which the agents are represented graphically and their movements.
+
+If you scroll down the interface are presented the graphics of active cases, recovered agents, deaths and other auxiliary graphics.
+
+To execute an example please select the Menu option, in the slidable window and with the sliders configure the simulation. The first option allows to configure total number of agents. Next you can set infected agents, followed by agents with comorbidities, agents with vaccine and finally day of simulation. 
+
+After configuration press the green button “CONFIGURAR”. You will be able to see the simulation starts, the number of agents selected are located in random places of the canvas. The agents start to move into the canvas and graphics start to deploy their respective information. The upper blue slider indicates simulation time transition. When the simulation ends, a floating alert window appears to indicate that the simulation is over.
+
+
+# How to use the simulator?
+This simulator uses some factors that function as initial settings for the representation of various scenarios under which the Covid-19 disease can affect a group of people (agents).
+
+When downloading the file package, the important files of the simulator are:
+
+- app.py
+- AgentePlusPlus.py
+- controlador.py
+
+The app.py file must be run to start the simulator as a Local Host. When executing this file from an IDE for Python language, the console will show a URL that must be placed in the preferred browser. In this way the simulator will be displayed, but the code must be kept running, so it is not recommended to close the IDE used. To stop the execution, press the key combination Ctrl + c within the IDE console.
+
+Inside the file package there are several folders that contain elements necessary for the correct execution of all the code. It is recommended not to delete or edit the name of any of these folders. The folders of importance are:
+
+- Static
+- Templates
+
+In these folders are the files for execution in JavaScript for the web page and the file in HTML, respectively.
+
+The development of the interaction rules is defined in the AgentPlusPlus.py, controller.py, utilities.py and paths.py files. The first of these files in Python corresponds to the agent code, where they are defined and certain essential states. The following file corresponds to the Main of the interaction rules that controls all the instantiated agents. The utilities.py and paths.py files are stubs for executing random events and agent movement.
+
+When the simulator is run, the initial parameters must be configured in the left side menu, such as the total number of agents to be deployed on the interface, the number of initial infected agents, the number of agents with comorbidities, as well as those with a vaccine. Finally, the simulation days are defined. Each of the parameters are selected with the slider type bars. 
+
+To start the simulator, just press the Configure button within the same menu. To close the menu, press the indicator of the horizontal bars.
+
 # ¿Cómo usarlo?
 Este simulador utiliza algunos factores que funcionan como configuración inicial para la representación de diversos escenarios bajo los cuales la enfermedad Covid-19 puede afectar a un grupo de personas (agentes).
 
